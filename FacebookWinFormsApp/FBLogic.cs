@@ -87,7 +87,7 @@ namespace BasicFacebookFeatures
         }
 
 
-        public void LoadAllFriendsUser()
+        public bool LoadAllFriendsUser()
         {
 
             try
@@ -113,12 +113,13 @@ namespace BasicFacebookFeatures
                     string location = item.Element("location").Value;
                     listAllUsersFriends.Add(new FBUser() { UserName= userName, Gender=gender,Location=location, Age = age } );
                 }
+                return true;
             }
             catch(Exception mes)
-            { 
+            {
 
-                ;
-            
+                return false;
+
             }
         } 
 
