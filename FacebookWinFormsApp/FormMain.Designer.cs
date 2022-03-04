@@ -34,6 +34,7 @@
             this.richTextLogEvent = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +62,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.richTextLogEvent);
@@ -99,6 +101,16 @@
             this.label2.Size = new System.Drawing.Size(0, 30);
             this.label2.TabIndex = 55;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(10, 180);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(260, 157);
+            this.button1.TabIndex = 56;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -123,6 +135,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox richTextLogEvent;
+        private System.Windows.Forms.Button button1;
     }
 }
 

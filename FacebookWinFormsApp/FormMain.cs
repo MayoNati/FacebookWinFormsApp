@@ -129,6 +129,9 @@ namespace BasicFacebookFeatures
             box.SelectionLength = 0; // clear
         }
 
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            fBLogic.LoadAllFriendsUser();
+        }
     }
 }
