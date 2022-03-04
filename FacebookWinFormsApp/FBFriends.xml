@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<users>
+	<user >
+		<id>1</id>
+		<name>Lin ben moya</name>
+		<gender>Female</gender>
+		<age>24</age>
+		<location>Holon</location>
+	</user>
+	<user>
+		<id>2</id>
+		<name>Nati Mayo</name>
+		<gender>Male</gender>
+		<age>33</age>
+		<location>Hod-Hasharon</location>
+	</user>
+</users>
